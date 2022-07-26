@@ -1,0 +1,23 @@
+public class Leapyear
+{
+public static void main(String args[])
+{
+	//year to be checked
+int year = 2020;
+
+// if the year is divided by 400
+if (year % 400 == 0) {
+System.out.println("Leap year");
+}
+  // if the year is divisible by 4 and not divisible by 100
+ 
+    if (year % 4 == 0 && year%100!=0)
+    {
+    	System.out.println("Leap year");
+    }
+    else
+    {
+    	System.out.println("Not a Leap year");
+  }
+}}
+  
